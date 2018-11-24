@@ -1,7 +1,7 @@
 version: '3.0'
 services:
-  # postgress:
-  #   image: 'postgres:latest'
+  postgress:
+    image: 'postgres:latest'
   redis:
     image: 'redis:latest'
   api:
